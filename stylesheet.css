@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  text-decoration:none;
+}
+
+body {
+  margin: 0;
+  font-family: "メイリオ", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width:100%;
+}
+
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  width:100%;
+}
+
+.header-menus {
+  background-color: rgb(100,180,180);
+  opacity:0.8;
+  width:100%;
+  height:60px;
+  text-align:center;
+  position:fixed;
+  top:0;
+  z-index: 10;
+}
+
+header a{
+  color:white;
+  display:inline-block;
+  padding:0 20px;
+  line-height: 46px;
+  background-color: rgb(80,160,160);
+  margin:7px 20px;
+  border-radius:25px;
+}
+
+.top-wrapper{
+  background-color: rgb(255,255,255)
+  margin:0 auto;
+  opacity:0.75;
+  margin-top:60px;
+  height:50%;
+}
+
+.title{
+  font-size:85px;
+  color:rgb(255,160,70);
+  padding:50px 0;
+}
+
+.top-wrapper p{
+  font-size:30px;
+  color:rgba(100, 100, 100, 0.9);
+}
+
+.contents-wrapper{
+  background-color: rgb(100,100,100);
+  opacity:0.5;
+  height:50%;
+  padding-top:20px;
+  text-align: center;
+}
+
+.contents-wrapper a{
+  display:inline-block;
+  padding:10px 20px;
+  color:white;
+  font-size:40px;
+}
+
+footer{
+  background-color: rgba(100,100,100,0.6);
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
+
+footer p{
+  color:white;
+  font-size:12px;
+  padding: 10px 10px;
+  float:right;
+}
